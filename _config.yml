@@ -1,26 +1,31 @@
-title: Jekyll Serial Programmer
-markdown: kramdown
+title: Title of your CV site
+profile_img: /assets/img/profile.webp
+icon_img: /assets/img/icon.webp
 
-# for atom feed
-author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+name: "Your Name Here"
+job: "〈Your Job Here〉"
+
+phone_number: 012-345-6789
+address: City, Country
+email: email@example.com
+linkedin_username: linkedin
+github_username: github
+instagram_username: instagram
+twitter_username: twitter
+facebook_username: facebook
+youtube_username: youtube
+blog_url: homepage-url
+
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
+baseurl:
+
+exclude:
+  - _posts/
+  - resources/
+  - vendor/
 
 plugins:
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-
-collections_dir: all_collections
-collections:
-  posts:
-    output: true
-
-defaults:
-  - scope:
-      path: "_posts"
-    values:
-      layout: "post"
-      permalink: /posts/:title/
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+  - jekyll-sitemap
+  - jekyll-seo-tag
