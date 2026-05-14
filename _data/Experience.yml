@@ -2,21 +2,56 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
-    role: Project Manager
+  - title: AvidXchange — Software Engineer II
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
-    description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Charlotte, NC (Remote)
+      - AvidXchange is a B2B payments and accounts payable automation company. As a member of the NetSuite product team, I design, develop, and maintain SuiteApps that integrate NetSuite with AvidXchange's payment platform.
+    date: 2020 – Present
+  - title: Payment Processing (AvidPay, FastPay, NACHA/ACH)
+    description:
+      - Rebuilt the AvidPay and FastPay process payments search to support more than 4,000 records and improve page load performance, resolving critical production slowness issues
+      - Converted the AvidXchange process payments submission to a **Map/Reduce** architecture, enabling parallel processing of large payment batches (50+ payments)
+      - Designed and implemented the **NACHA/Standard ACH payment flow** end-to-end, including new custom record types, process payments page, ACH account setup, and required field validation
+      - Added support for **Customer Refunds and Expense Reports** in AvidPay XML payloads
+      - Resolved multiple production defects including duplicate batch creation on page refresh, incorrect payment dates, and malformed vendor address data in XML submissions
+      - Implemented a cleared check image suitelet for retrieving check images from AvidXchange's API
+  - title: Cross-Border Payments (CBP)
+    description:
+      - Developed the full **OAuth 2.0 authentication flow** for CBP, including token request, token management, and credential storage in a custom NetSuite record
+      - Built the **CBP Vendor Account setup feature**, covering country/currency selection, form parsing, funding account enablement, and API interactions
+      - Implemented `Initiate Authentication` and `Receive and Record Authentication Response` user stories as part of the CBP API integration
+      - Resolved defects in funding account creation error handling and CBP account record field persistence
+  - title: Approvals & Invoice Workflows
+    description:
+      - Converted the Approvals pages from SuiteScript 1.0 to **SuiteScript 2.0**, including resolving the 1,000-vendor limit
+      - Developed a **Dashboard Portlet** for daily approvals reminders using saved searches
+      - Implemented **Approval Plugins** architecture, allowing modular approval routing logic
+      - Added invoice image links to the payments approval page for improved reviewer context
+      - Built the `Set Initial Approval Status` and `Retry Assigning Approval Status` features for newly created payments
+  - title: AFN Middleware (Azure)
+    description:
+      - Built and tested **Azure Blob Storage access** via a C# class library, including permissions research and proof-of-concept work
+      - Developed the **Notifications Processor Function App** using Azure Functions
+      - Implemented the `NetSuite Account Record` middleware data model (Debtor Info, Creditor Info, Payment Info Merge) across multiple user stories
+      - Contributed to Azure Service Bus and Entity Framework proofs of concept for the AFN middleware platform
+  - title: SuiteApp–to–SDF Migration
+    description:
+      - Researched and led the plan to migrate the team's development workflow from classic bundle development to **SuiteApp Development Framework (SDF)**
+      - Performed test bundle conversion, assessed customer impact, and documented findings
+      - Executed multiple SuiteApp release submissions to the NetSuite Marketplace
+  - title: ACH & Positive Pay File Generation
+    description:
+      - Converted ACH File Generation and Positive Pay File Generation pages to **SuiteScript 2.0**
+      - Implemented fix for ACH file gen issues related to iframe/cookie handling in various browsers
+      - Added ACH File Gen fields and Company ID requirements to the process payments page
+  - title: Bundle & Release Management
+    description:
+      - Executed 10+ versioned release cycles across PAY, BS, CBP, and AFN product lines (2021–2025), including bundle versioning, script locking, changelog updates, and QA deployments
+      - Managed release readiness for product versions including Jelly Bean, Helium, Lithium, Beryllium, Boron, and Begonia
+  - title: Other Contributions
+    description:
+      - Developed an **auto-create Bills feature** for syncing invoices from AvidInvoice into NetSuite as Bill records
+      - Built the `Copy Customer Script Permissions on Bundle Install` feature to automate permission propagation
+      - Added field-level character validation for AvidPay payment submissions
+      - Implemented in-app sunset messaging for the classic bundle
+      - Designed configurable test environment targets to support QA flexibility across dev accounts

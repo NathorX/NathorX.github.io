@@ -1,0 +1,8 @@
+subject: Certifications
+listing-order: 5
+icon: "/assets/img/trophy.svg"
+contents:
+  - title: Certifications
+    description:
+      - NetSuite SuiteScript 2.0 Developer II *(in progress)*
+      - Microsoft AI Fundamentals *(in progress)*

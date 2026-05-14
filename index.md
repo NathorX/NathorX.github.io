@@ -1,8 +1,12 @@
+---
+layout: home
+---
+
 # Nathan Herrmann
 
 **Software Engineer II**
 
-📍 South Bend, Indiana | 📞 801-368-7037 | ✉️ NathanJHerrmann@gmail.ccom | 🔗 [\[LinkedIn\]](https://www.linkedin.com/in/nathor/)
+📍 South Bend, Indiana | 📞 801-368-7037 | ✉️ NathanJHerrmann@gmail.com | 🔗 [\[LinkedIn\]](https://www.linkedin.com/in/nathor/)
 
 ---
 

@@ -1,0 +1,7 @@
+subject: Summary
+listing-order: 1
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: Summary
+    description:
+      - Software Engineer with 5+ years of experience building and maintaining enterprise-grade financial software on the NetSuite platform. Specialized in SuiteScript 2.x development, payment processing systems (ACH/NACHA, cross-border, AvidPay), and cloud-based middleware solutions using C# and Azure. Proven track record of leading feature development, migrating legacy systems, and delivering reliable releases across multiple product lines.
